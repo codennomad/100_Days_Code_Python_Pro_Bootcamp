@@ -1,0 +1,4 @@
+
+The code contains a few errors but successfully achieved the objective on two occasions. 
+It's important to note that the robot's starting position is randomized, 
+which adds variability to its performance.

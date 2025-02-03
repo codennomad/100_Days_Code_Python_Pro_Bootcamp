@@ -1,0 +1,8 @@
+#Subscriping
+print("Hello"[0]) ----- > H
+print("Hello"[-1]) ----- > o
+
+Type Error
+this will give you a type error. Age is an integer. You are trying to concatenate a String to an integer
+age = 12
+print("You are " + age + " years old")

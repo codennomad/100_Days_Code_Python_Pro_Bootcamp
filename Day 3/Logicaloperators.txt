@@ -1,0 +1,26 @@
+False or True or False = True
+the expression False or True or False is True because only condition needs to be True for the entire result to be True when using or
+
+True or False = True
+False or True = True
+False or True or False = True
+----------------------------------------------------------------------------------
+a = 5
+b = 7
+
+if a >= b and a != b:
+    print("A")
+elif not a >= b and a != b:
+    print("B")
+else:
+    print("C")
+--------------------------------------------------------
+a >= b =  False
+a != b = True - verifica de A e diferente de B
+False com True
+esse bloco nao e executado
+-------------------------------------------------------
+not a > = b = inverter o valor False agora e True
+a != b = continua sendo True 
+True com True
+esse bloco e executado 

@@ -1,0 +1,9 @@
+
+### **Resumo das Diferenças**
+| Nível     | Características | Problemas Abordados | Organização |
+|-----------|----------------|---------------------|-------------|
+| Iniciante | Código básico, foco em fazer funcionar | Não valida entradas | Linha por linha |
+| Júnior    | Melhor legibilidade e início de validação | Simples validação de dados | Funções básicas |
+| Pleno     | Foco em robustez e manutenção | Validação completa de entradas | Funções organizadas |
+| Sênior    | Código robusto, expansível e reutilizável | Validação, separação lógica, e reuso | Design escalável |
+
