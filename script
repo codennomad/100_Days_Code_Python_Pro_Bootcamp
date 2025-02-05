@@ -1,0 +1,28 @@
+import os
+
+def rename_folders():
+    # Lista todas as pastas no diretório atual
+    folders = [f for f in os.listdir('.') if os.path.isdir(f) and f.startswith('Day')]
+    
+    for folder in folders:
+        try:
+            # Extrai o número da pasta
+            if 'and' in folder:
+                # Caso especial para "Day 20 and Day 21"
+                continue
+            
+            number = ''.join(filter(str.isdigit, folder))
+            if number:
+                # Criar o novo nome no formato Day_X
+                new_name = f'Day_{number}'
+                
+                # Renomear apenas se o nome for diferente
+                if folder != new_name:
+                    os.rename(folder, new_name)
+                    print(f'Renamed: {folder} -> {new_name}')
+                    
+        except Exception as e:
+            print(f'Error renaming {folder}: {e}')
+
+if __name__ == '__main__':
+    rename_folders()
