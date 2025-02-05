@@ -172,4 +172,5 @@ cython_debug/
 .pypirc
 
 tempCodeRunnerFile.py/
+tempCodeRunnerFile.py
 __pycache__
