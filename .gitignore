@@ -173,4 +173,5 @@ cython_debug/
 
 tempCodeRunnerFile.py/
 tempCodeRunnerFile.py
+script.py
 __pycache__
